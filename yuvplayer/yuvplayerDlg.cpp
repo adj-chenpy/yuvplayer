@@ -866,14 +866,14 @@ void CyuvplayerDlg::yuv2rgb(void)
 			cur = line;
 			for( i = 0 ; i < width ; i++ ){
 				if (m_color == RGB32) {
-					r = misc[(j*width+i)*4+2];
+					r = misc[(j*width+i)*4  ];
 					g = misc[(j*width+i)*4+1];
-					b = misc[(j*width+i)*4+0];
+					b = misc[(j*width+i)*4+2];
 				}
 				else if (m_color == RGB24) {
-					r = misc[(j*width+i)*3+2];
+					r = misc[(j*width+i)*3  ];
 					g = misc[(j*width+i)*3+1];
-					b = misc[(j*width+i)*3+0];
+					b = misc[(j*width+i)*3+2];
 				}
 				else {
 					rgb16 = (short*)misc;
