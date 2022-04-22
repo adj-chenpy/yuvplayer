@@ -1,0 +1,13 @@
+*.sdf 
+*.ilk 
+*.pdb
+*.ipch
+*.pch 
+*.obj 
+*.idb
+*.log
+*.tlog
+*.db
+*.exe
+Release
+.vs
